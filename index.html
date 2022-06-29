@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HITCHCOCK!</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="images/logo-hitchcock.png" alt="" class="logo-hitchcock">
+            <nav>
+                <a href="#somos-proya">Biografía</a>
+                <a href="#nuestros-programas"> Mis Favoritas</a>
+                <a href="#caracteristicas">Libros</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <h1>Aprende cine  <br>con el mejor</h1>
+        <a href="https://www.youtube.com/watch?v=yTsnc6QB4bw"target="blank">
+
+        <button>PLAY!</button></a>
+    </section>
+
+    <section id="somos-proya">
+        <div class="container">
+            <div class="img-container"></div>
+            <div class="texto">
+
+                <h2>Alfred <span class="color-acento">Hitchcock!</span></h2>
+                <p>Hitchcock dirigió más de cincuenta películas a lo largo de seis décadas.
+                     Reconocido a menudo como el mejor cineasta británico; apareció primero de 
+                     una encuesta realizada entre los críticos de cine en 2007 por el periódico
+                      The Daily Telegraph. El diario lo definió así: «Indudablemente el más grande
+                       cineasta nacido en estas islas, Hitchcock hizo más que cualquier otro director
+                        para dar forma al cine moderno, que habría sido completamente diferente sin
+                         él».La revista MovieMaker lo ha descrito como el director más influyente de
+                          todos los tiempos y es ampliamente considerado como uno de los artistas más
+                           importantes del séptimo arte.11​</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="nuestros-programas">
+        <div class="container">
+            <h2>Mis Favoritas</h2>
+            <button class="boton" onclick="prev()">prev</button>
+            <img id="slider" src="images/encadenados.jpeg" width="500" 
+            height="650px"/>
+            <button class="boton" onclick="next()">next</button>
+                    
+            </div>
+           
+        </div>
+    </section>
+
+    <section id="caracteristicas">
+        <div class="container">
+            <h2>Libros</h2>
+
+                <img class="libro" src="images/libro1.jpg">
+                <img class="libro" src="images/libro2.jpeg">
+                <img class="libro" src="images/libro3.jpeg">
+
+               
+        </div>
+    </section>
+
+    <footer>
+        <h3 class="text-footer">Sandra Barrachina Code</h3>
+      </footer>
+  
+    <script src="index.js"></script>
+</body>
+</html>
